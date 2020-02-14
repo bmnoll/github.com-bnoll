@@ -1,186 +1,221 @@
-<html lang="en"><head>
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.6">
-    <title>Product example · Bootstrap</title>
+    <!-- Bootstrap CSS -->
 
-    <link href="https://getbootstrap.com/docs/4.4/examples/product/" rel="canonical">
-
-    <!-- Bootstrap core CSS -->
-<link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Favicons -->
-<link href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-<link href="/docs/4.4/assets/img/favicons/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-<link href="/docs/4.4/assets/img/favicons/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
-<link href="/docs/4.4/assets/img/favicons/manifest.json" rel="manifest">
-<link href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" rel="mask-icon" color="#563d7c">
-<link href="/docs/4.4/assets/img/favicons/favicon.ico" rel="icon">
-<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
-<meta name="theme-color" content="#563d7c">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link href="product.css" rel="stylesheet">
+
+    <link href="/assets/css/styles.css" rel="stylesheet">
+
+    <title>Resort Reviews</title>
+
   </head>
+
   <body>
-    <nav class="site-header sticky-top py-1">
-  <div class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" aria-label="Product" href="#">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto" role="img" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" focusable="false" width="24" height="24"><title>Product</title><circle cx="12" cy="12" r="10" /><path d="M 14.31 8 l 5.74 9.94 M 9.69 8 h 11.48 M 7.38 12 l 5.74 -9.94 M 9.69 16 L 3.95 6.06 M 14.31 16 H 2.83 m 13.79 -4 l -5.74 9.94" /></svg>
-    </a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
-  </div>
-</nav>
 
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-  <div class="col-md-5 p-lg-5 mx-auto my-5">
-    <h1 class="display-4 font-weight-normal">LoSuh Designs</h1>
-    <p class="lead font-weight-normal">Where graphic design projects and products live</p>
-  </div>
-  <div class="product-device shadow-sm d-none d-md-block"></div>
-  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-</div>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md bg-faded justify-content-center">
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-</div>
+      <a href="/" class="navbar-brand d-flex w-50 mr-auto"><img src="/assets/images/resort_reviews.png"></a>
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-  <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-</div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-</div>
+          <span class="navbar-toggler-icon"></span>
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-</div>
+      </button>
 
-<footer class="container py-5">
-  <div class="row">
-    <div class="col-12 col-md">
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block mb-2" role="img" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" focusable="false" width="24" height="24"><title>Product</title><circle cx="12" cy="12" r="10" /><path d="M 14.31 8 l 5.74 9.94 M 9.69 8 h 11.48 M 7.38 12 l 5.74 -9.94 M 9.69 16 L 3.95 6.06 M 14.31 16 H 2.83 m 13.79 -4 l -5.74 9.94" /></svg>
-      <small class="d-block mb-3 text-muted">© 2017-2019</small>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Features</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Cool stuff</a></li>
-        <li><a class="text-muted" href="#">Random feature</a></li>
-        <li><a class="text-muted" href="#">Team feature</a></li>
-        <li><a class="text-muted" href="#">Stuff for developers</a></li>
-        <li><a class="text-muted" href="#">Another one</a></li>
-        <li><a class="text-muted" href="#">Last time</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Resources</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Resource</a></li>
-        <li><a class="text-muted" href="#">Resource name</a></li>
-        <li><a class="text-muted" href="#">Another resource</a></li>
-        <li><a class="text-muted" href="#">Final resource</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Resources</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Business</a></li>
-        <li><a class="text-muted" href="#">Education</a></li>
-        <li><a class="text-muted" href="#">Government</a></li>
-        <li><a class="text-muted" href="#">Gaming</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>About</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Team</a></li>
-        <li><a class="text-muted" href="#">Locations</a></li>
-        <li><a class="text-muted" href="#">Privacy</a></li>
-        <li><a class="text-muted" href="#">Terms</a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"></script>
+      <div class="navbar-collapse collapse" id="collapsingNavbar3">          
 
-</body></html>
+          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+
+              <li class="nav-item">
+
+                  <a class="nav-link" href="#">All Resorts</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                  <a class="nav-link" href="#">About Us</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                  <a class="nav-link" href="#">Admin</a>
+
+              </li>
+
+          </ul>
+
+      </div>
+
+  </nav>
+
+
+
+    <main role="main">
+
+
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+
+      <div class="jumbotron">
+
+        <div class="container">
+
+          <h1 class="display-3">Resort Reviews</h1>
+
+          <p>An unbiased look at the great ski resorts of North America.  Let us help you find the perfect place to ski and stay.</p>
+
+          <p><a class="btn btn-outline-light btn-sm" href="#" role="button">Featured Review &raquo;</a></p>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="container">
+
+        <!-- Example row of columns -->
+
+        <div class="row">
+
+          <div class="col-md-4">
+
+            <h2>Killington</h2>
+
+            <img class="w-90" src="/assets/images/killington.jpg">
+
+            <p>Killington is known for its diversity of terrain and grooming expertise, providing skiers and riders of all ability levels a choice of wide-open groomed cruisers, narrow classic New England runs, moguls, steeps and gladed skiing areas. Killington also offers multiple terrain features for snowboarders and freeskiers, including Bear Mountain’s signature terrain parks.</p>
+
+            <p><a class="btn btn-secondary" href="#" role="button">Full Review &raquo;</a></p>
+
+          </div>
+
+          <div class="col-md-4">
+
+            <h2>Aspen</h2>
+
+            <img class="w-90" src="/assets/images/aspen.jpg">
+
+            <p>At Aspen Mountain you can ski down the same runs that hosted last year's World Cup finals, ride through gladed powder stashes, chase after the snowcat-towed Oasis Champagne Bar, or put together one quad-burning top-to-bottom after another. And all of this is just steps away from downtown Aspen. No wonder this mountain is a legend.</p>
+
+            <p><a class="btn btn-secondary" href="#" role="button">Full Review &raquo;</a></p>
+
+          </div>
+
+          <div class="col-md-4">            
+
+            <h2>Whistler</h2>
+
+            <img class="w-90" src="/assets/images/whistler.jpg">
+
+            <p>There is an indisputable draw, an irresistible allure, a pull so strong that skiers and snowboarders the world over gravitate to these famed peaks. </p>
+
+            <p><a class="btn btn-secondary" href="#" role="button">Full Review &raquo;</a></p>
+
+          </div>
+
+        </div>
+
+
+
+        <hr>
+
+
+
+      </div> <!-- /container -->
+
+
+
+      <div class="container">
+
+        <!-- Example row of columns -->
+
+        <div class="row">
+
+          <div class="col-md-8">
+
+            <h2>Welcome</h2>            
+
+            <p>Resort Review is known for providing up to date and accurate information on the premier resorts in North America.  Founded by a bunch of
+
+              ski bums who couldn't get a real job, the site has grown to the industry leader. We ski on the same snow that you do and want to get the most bang for the buck.  We don't take advertising money. We don't want temptation to sneak in and compromise our reviews.
+
+            </p>            
+
+          </div>
+
+          <div class="col-md-4">
+
+            <h2>Top Resorts</h2>            
+
+            <p>These are the top 10:
+
+              <ol>
+
+                <li><a href="#">Killington</a></li>
+
+                <li><a href="#">Aspen</a></li>
+
+                <li><a href="#">Whistler</a></li>
+
+                <li><a href="#">Park City</a></li>
+
+                <li><a href="#">Copper Mtn</a></li>
+
+                <li><a href="#">Heavenly</a></li>
+
+                <li><a href="#">Lake Placid</a></li>
+
+                <li><a href="#">Mount Snow</a></li>
+
+                <li><a href="#">Seven Springs</a></li>
+
+              </ol>
+
+            </p>           
+
+          </div>
+
+          
+
+        </div>        
+
+      </div> <!-- /container -->
+
+    </main>
+
+
+
+    <footer class="container">
+
+      <p>&copy; Ski Bums LLC 2017-2018</p>
+
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
