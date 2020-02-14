@@ -1,5 +1,5 @@
 <!doctype html>
-<?php
+?php
 <html lang="en">
 
   <head>
