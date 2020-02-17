@@ -9,69 +9,170 @@
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <a href="#" class="pull-left"><img src="logo\logo.png"></a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+        <ul id="menu-main-nav" class="navbar-nav nav-fill w-100">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Request a Custom Design</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col-12">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="item active">
+             <div align="center">
+               <video autoplay loop>
+                 <source src="eye-stalk.3gp" width="2000" height="300" type="video/mp4">
+              </video>
+          </div>
+  </br>
+  </br>
+  <h2 class="text-center">LoSuh Designs Products</h2>
+  </br>
+  <hr>
+    <h3 class="text-center">Dad Hats</h3>
+    </br>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="product-pictures\loser.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Loser</h5>
+              <p class="card-text">Loser L hand design on a "dad hat" in a color of your choice.</p>
+             <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="product-pictures\suh.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Suh Dude</h5>
+              <p class="card-text">Suh Dude hand design on a "dad hat" in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="product-pictures\ily.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">ILY</h5>
+              <p class="card-text">I Love You hand design on a "dad hat" in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="product-pictures\peace.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Peace</h5>
+              <p class="card-text">Peace Sign hand design on a "dad hat" in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="product-pictures\heart.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Heart</h5>
+              <p class="card-text">Heart hand design on a "dad hat" in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="product-pictures\illuminati.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Illuminati</h5>
+              <p class="card-text">Illuminati hand design on a "dad hat" in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+        <hr>
+  </style>
+  <div class="container mt-3">
+    <div class="row">
+    <div class="col-3">
+    </div>
+        <div class="col-6">
+          <div id="carouselExampleControls" class="carousel carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleControls" data-slide-to="1"></li>
               <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="4"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="5"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="6"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="7"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="8"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="9"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="images/1920x500.gif" alt="First slide">
+                <img class="d-block w-100" src="Carousel\claire.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Item 1 Heading</h5>
-                  <p>Item 1 Description</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/1920x500.gif" alt="Second slide">
+                <img class="d-block w-100" src="Carousel\beach.png" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Item 2 Heading</h5>
-                  <p>Item 2 Description</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/1920x500.gif" alt="Third slide">
+                <img class="d-block w-100" src="Carousel\sean.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Item 3 Heading</h5>
-                  <p>Item 3 Description</p>
+                </div>
+              </div>
+			<div class="carousel-item">
+              <img class="d-block w-100" src="Carousel\jordan.png" alt="Fourth slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+			<div class="carousel-item">
+              <img class="d-block w-100" src="Carousel\puppy.png" alt="Fifth slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+			<div class="carousel-item">
+              <img class="d-block w-100" src="Carousel\vacation.png" alt="Sixth slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+             </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Carousel\rileyvacation.png" alt="Seventh slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+			<div class="carousel-item">
+                <img class="d-block w-100" src="Carousel\rileyandgab.png" alt="Eighth slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+			<div class="carousel-item">
+                <img class="d-block w-100" src="Carousel\rileyandgab2.png" alt="Nine slide">
+                <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
             </div>
@@ -85,191 +186,97 @@
             </a>
           </div>
         </div>
+        <div class="col-3">
+        </div>
       </div>
-      <hr>
     </div>
-    <hr>
-    <h2 class="text-center">LoSuh Design Products</h2>
-    <hr>
+		<hr>
+    </br>
+    <h3 class="text-center">Crews</h3>
+    </br>
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4 pb-1 pb-md-0">
           <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
+            <img class="card-img-top" src="product-pictures\loser.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <h5 class="card-title">Loser</h5>
+              <p class="card-text">Loser L hand design on a crewneck sweat shirt in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 pb-1 pb-md-0">
           <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
+            <img class="card-img-top" src="product-pictures\suh.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <h5 class="card-title">Suh Dude</h5>
+              <p class="card-text">Suh Dude hand design on a crewneck sweat shirt in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 pb-1 pb-md-0">
           <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
+            <img class="card-img-top" src="product-pictures\ily.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row text-center mt-4">
-        <div class="col-md-4 pb-1 pb-md-0">
-          <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <h5 class="card-title">ILY</h5>
+              <p class="card-text">I Love You hand design on a crewneck sweat shirt in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 pb-1 pb-md-0">
           <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
+            <img class="card-img-top" src="product-pictures\peace.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <h5 class="card-title">Peace</h5>
+              <p class="card-text">Peace Sign hand design on a crewneck sweat shirt in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 pb-1 pb-md-0">
           <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
+            <img class="card-img-top" src="product-pictures\heart.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <h5 class="card-title">Heart</h5>
+              <p class="card-text">Heart hand design on a crewneck sweat shirt in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
             </div>
           </div>
         </div>
         <div class="col-md-4 pb-1 pb-md-0">
           <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
+            <img class="card-img-top" src="product-pictures\illuminati.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 pb-1 pb-md-0">
-          <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 pb-1 pb-md-0">
-          <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 pb-1 pb-md-0">
-          <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 pb-1 pb-md-0">
-          <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 pb-1 pb-md-0">
-          <div class="card">
-            <img class="card-img-top" src="images/400X200.gif" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <h5 class="card-title">Illuminati</h5>
+              <p class="card-text">Illuminati hand design on a crewneck sweat shirt in a color of your choice.</p>
+              <a href="#" class="btn btn-primary">View</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <hr>
+    </br>
     <div class="container text-white bg-dark p-4">
-      <div class="row">
-        <div class="col-6 col-md-8 col-lg-7">
-          <div class="row text-center">
-            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
-              <ul class="list-unstyled">
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
-              <ul class="list-unstyled">
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
-              <ul class="list-unstyled">
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-                <li class="btn-link"> <a>Link anchor</a> </li>
-              </ul>
-            </div>
-          </div>
-        </div>
         <div class="col-md-4 col-lg-5 col-6">
           <address>
-            <strong>MyStoreFront, Inc.</strong><br>
-            Indian Treasure Link<br>
-            Quitman, WA, 99110-0219<br>
-            <abbr title="Phone">P:</abbr> (123) 456-7890
+            <strong>LoSuh Designs</strong><br>
+            <abbr title="Phone"></abbr> (724) 581-3782
           </address>
           <address>
-            <strong>Full Name</strong><br>
-            <a href="mailto:#">first.last@example.com</a>
+            <strong>Brandon Noll</strong><br>
+            <a href="mailto:#">brandon.noll@icloud.com</a>
           </address>
-        </div>
       </div>
+    </div>
     </div>
     <footer class="text-center">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>Copyright © MyWebsite. All rights reserved.</p>
+            <p>Copyright © LoSuhDesigns. All rights reserved.</p>
           </div>
         </div>
       </div>
