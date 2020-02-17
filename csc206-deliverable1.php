@@ -33,7 +33,7 @@
           <div class="item active">
              <div align="center">
                <video autoplay loop>
-                 <source src="eye-stalk.3gp" width="2000" height="300" type="video/mp4">
+                 <source src="video\eye-stalk.3gp" width="2000" height="300" type="video/mp4">
               </video>
           </div>
   </br>
