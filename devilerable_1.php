@@ -7,8 +7,6 @@
     <title>Bootstrap eCommerce Page Template</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-  </head>
-  <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
       <a href="#" class="pull-left"><img src="logo\logo.png"></a> 
@@ -30,6 +28,8 @@
         </div>
       </div>
     </nav>
+    </head>
+  <body>
           <div class="item active">
              <div align="center">
                <video autoplay>
