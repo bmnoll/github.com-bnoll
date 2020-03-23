@@ -1,3 +1,4 @@
+
 <?php
 
 
@@ -26,17 +27,11 @@ class layout {
 
     
 
-    /**
-
-     * Generate the page head section as well as the navbar and open the content section
-
-     * @return string
-
-     */
-
-	public static function render()
+	public static function render($titleString = '')
 
 	{
+
+        static::$content = str_replace('{{TITLE_STRING}}', $titleString, static::$content);
 
 		echo static::$content;
 
