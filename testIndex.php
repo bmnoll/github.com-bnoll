@@ -15,7 +15,7 @@
   <hr>
     <h3 class="text-center">Dad Hats</h3>
     </br>
-
+  
     <div class="row text-center">
         <div class="col-md-4 pb-1 pb-md-0">
           <div class="card">

@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) {
     $description = $_POST['description'];
     $price = $_POST['price'];
 
-    $mysquli -> query(INSERT INTO data (name, description, price) VALUES('$name', '$description','$price')
+    $mysquli -> query(INSERT ('$name', '$description','$price')
     or die ($mysqli->error));
 
 }

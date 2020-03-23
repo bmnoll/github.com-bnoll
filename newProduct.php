@@ -6,7 +6,6 @@
       $file_tmp =$_FILES['image']['tmp_name'];
       $file_type=$_FILES['image']['type'];
       $file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
-      
       $extensions= array("jpeg","jpg","png");
       
       if(in_array($file_ext,$extensions)=== false){
@@ -27,7 +26,10 @@
 ?>
 <html>
    <body>
-      <?php require_once 'process.php'; ?>
+   <?php require_once 'process.php';
+     $mysquli = new mysquli ('localhost', 'root', 'password', 'csc206noll') or die(mysqli_error($mysqli));
+      $result = $mysquli -> query("SELECT * FROM data") or die($mysqli->error);
+      ?>
       <form action="process.php" method="POST" enctype="multipart/form-data">
       <div class="form-group row">
     <label class="col-4 col-form-label" for="text">Design name</label> 
