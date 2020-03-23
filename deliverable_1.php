@@ -31,18 +31,7 @@
     </head>
   <body>
           <div class="item active">
-
-
-          <div class="bgVWrap">
-<video autoplay="autoplay" playsinline="" loop="loop" muted="muted" preload="preload">
-<source src="video\eye-stalk.3gp">
-<p class="warning">Your browser does not support HTML5 video.</p>
-</video>
-</div>
-
-
-
-             <div align="center">
+                <div align="center">
                <video autoplay>
                  <source src="video\eye-stalk.3gp" width="2000" height="300" type="video/mp4">
               </video>
