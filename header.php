@@ -22,6 +22,9 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Portfolio</a>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Sessions/sessions_start.php">Admin</a>
+            </li>
           </ul>
         </div>
       </div>
