@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require 'header.php';?>
+<?php require 'Templates\header.php';?>
   <body>
           <div class="item active">
              <div align="center">
@@ -244,7 +244,7 @@
       </div>
     </div>
     </div>
-    <?php require 'footer.php';?>
+    <?php require 'Templates\header.php';?>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
