@@ -32,8 +32,8 @@ CREATE TABLE `items` (
   `id` int(11) NOT NULL,
   `name` varchar(24) NOT NULL,
   `description` varchar(200) NOT NULL,
-  `photo` longblob NOT NULL,
-  `price` varchar(3) NOT NULL
+  `photo` varchar(200) NOT NULL,
+  `price` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -41,12 +41,12 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `name`, `description`, `photo`, `price`) VALUES
-(1, 'Loser', 'Loser L hand design on a \"dad hat\" in a color of your choice', 'product-pictures\loser.png', '$20'),
-(2, 'Suh Dude', 'Suh Dude hand design on a \"dad hat\" in a color of your choice', 'product-pictures\suh.png', '$20');
-(3, 'iLY', 'I Love You hand design on a \"dad hat\" in a color of your choice', 'product-pictures\ily.png', '$20'),
-(4, 'Peace', 'Peace Sign hand design on a \"dad hat\" in a color of your choice', 'product-pictures\peace.png', '$20');
-(5, 'Heart', 'Heart hand design on a \"dad hat\" in a color of your choice', 'product-pictures\heart.png', '$25'),
-(6, 'ILLuminati', 'Illuminati hand design on a \"dad hat\" in a color of your choice', 'product-pictures\illuminati.png', '$25');
+(1, 'Loser', 'Loser L hand design on a \"dad hat\" in a color of your choice', 'loser.png', 20),
+(2, 'Suh Dude', 'Suh Dude hand design on a \"dad hat\" in a color of your choice', 'suh.png', 20),
+(3, 'iLY', 'I Love You hand design on a \"dad hat\" in a color of your choice', 'ily.png', 20),
+(4, 'Peace', 'Peace Sign hand design on a \"dad hat\" in a color of your choice', 'peace.png', 20),
+(5, 'Heart', 'Heart hand design on a \"dad hat\" in a color of your choice', 'heart.png', 25),
+(6, 'ILLuminati', 'Illuminati hand design on a \"dad hat\" in a color of your choice', 'illuminati.png', 25);
 
 --
 -- Indexes for dumped tables

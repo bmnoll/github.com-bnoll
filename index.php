@@ -80,9 +80,9 @@
           </div>
         </div>
       </div>
-    </div>    
+    </div>
         <hr>
-  </style>
+  <!-- </style>  -->
   <div class="container mt-3">
     <div class="row">
     <div class="col-3">

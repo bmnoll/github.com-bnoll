@@ -8,6 +8,7 @@
                  <source src="video\eye-stalk.3gp" width="2000" height="300" type="video/mp4">
               </video>
           </div>
+          </div>
   </br>
   </br>
   <h2 class="text-center">LoSuh Designs Products</h2>
