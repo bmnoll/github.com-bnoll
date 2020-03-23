@@ -56,6 +56,13 @@
   </div> 
   </br>
   <div class="form-group row">
+    <label class="col-4 col-form-label" for="text3">Price</label> 
+    <div class="col-8">
+      <input name="text3" class="form-control" id="text3" type="text">
+    </div>
+  </div>
+  </br>
+  <div class="form-group row">
     <div class="offset-4 col-8">
     <input type="file" name="image" />
     </br>
