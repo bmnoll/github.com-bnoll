@@ -27,8 +27,8 @@
 ?>
 <html>
    <body>
-      
-      <form action="" method="POST" enctype="multipart/form-data">
+      <?php require_once 'process.php'; ?>
+      <form action="process.php" method="POST" enctype="multipart/form-data">
       <div class="form-group row">
     <label class="col-4 col-form-label" for="text">Design name</label> 
     <div class="col-8">

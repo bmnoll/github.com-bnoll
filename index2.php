@@ -16,32 +16,17 @@
     <h3 class="text-center">Dad Hats</h3>
     </br>
 
-
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "password";
-$dbname = "csc206noll";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-$sql = "SELECT * FROM items";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-    echo $row["name"]. $row["description"]. $row["price"];
-    }
-} else {
-    echo "0 results";
-}
-$conn->close()
-?>
+    <div class="row text-center">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="product-pictures\loser.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Loser</h5>
+              <p class="card-text">Loser L hand design on a "dad hat" in a color of your choice.</p>
+             <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
 
         <hr>
   <div class="container mt-3">
