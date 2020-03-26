@@ -7,7 +7,7 @@
   </br>
   </br>
   <h2 class="text-center">
-    Ah a blank canvas
+    A blank canvas
   </h2>
   </br>
   <hr>
@@ -20,14 +20,15 @@
             <h5 class="card-title">
 
             </h5>
-            <p class="card-text"><?php echo $row['description']; ?></p>
-            <h5 class="card-title"><?php echo $row['price']; ?></h5>
+            <p class="card-text"></p>
+            <h5 class="card-title"></h5>
             <a href="#" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
       </div>
     </div>
+    <br/>
     <div class="container text-white bg-dark p-4">
       <div class="col-md-4 col-lg-5 col-6">
           <address>
