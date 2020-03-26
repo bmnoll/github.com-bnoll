@@ -17,10 +17,10 @@
               <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Request a Custom Design</a>
+              <a class="nav-link" href="request.php">Request a Custom Design</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="portfolio.php">Portfolio</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="newProduct.php">Admin</a>
