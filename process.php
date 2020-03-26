@@ -1,4 +1,10 @@
+<?php require 'header.php'; ?>
+<br/>
+<br/>
+      <div class="row">
+      <div class="mx-auto">
 <?php
+require 'styleSheet.php';
 $servername = "localhost";
 $database = "csc206noll";
 $username = "root";
@@ -10,7 +16,7 @@ if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $description = $_POST['description'];
     $price = $_POST['price'];
-    $photo = $_FILES['photo'];
+    $photo = $_POST['photo'];
 
 if (!$conn) {
 
@@ -18,19 +24,25 @@ if (!$conn) {
 
 }
 
-echo "Connected successfully";
+$photo = $conn->real_escape_string($photo);
 
 $sql = "INSERT INTO items (name, description, price, photo) VALUES ('$name', '$description','$price', '$photo')";
 
 if (mysqli_query($conn, $sql)) {
 
-      echo "New record created successfully";
-
-} else {
-
+      echo '<li><iframe src="https://giphy.com/embed/1Z6BpMnZUB32" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></li>';
+      } 
+else 
+      {
+      
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 
-}
+      }
 mysqli_close($conn);
 }
 ?>
+        </div>
+    </div>
+    <br/>
+    <br/>
+<?php require 'footer.php'; ?>

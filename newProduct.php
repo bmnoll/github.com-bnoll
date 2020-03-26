@@ -1,6 +1,14 @@
 <html>
-<?php require 'input.php'?>
+<?php require 'header.php'; ?>
+<?php require 'styleSheet.php'; ?>
+<br/>
+<br/>
+<div class="container">
+      <div class="row text-center">
+      <div class="mx-auto">
+        <div class="card text-center">
     <form action="process.php" method="POST" enctype="multipart/form-data">
+    <br/>
     <div class="form-group row">
     <label class="col-4 col-form-label" for="name">Design name</label> 
     <div class="col-8">
@@ -28,12 +36,18 @@
   </div>
   </br>
   <div class="form-group row">
-    <div class="offset-4 col-8">
-    <input type="file" name="photo" />
-    </br>
-    </br>
-      <button name="submit" class="btn btn-primary" type="submit">All good?</button>
+    <label class="col-4 col-form-label" for="photo">Photo File Location</label> 
+    <div class="col-8">
+      <input name="photo" class="form-control" id="photo" type="text">
     </div>
   </div>
+      <button name="submit" class="btn btn-primary" type="submit">All good?</button>
       </form>
+      </div>
+      </div>
+      </div>
+      </div>
 </html>
+<br/>
+<br/>
+<?php require 'footer.php'; ?>
