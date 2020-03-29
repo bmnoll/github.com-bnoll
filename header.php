@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap eCommerce Page Template</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+    <link href="bootstrap/bootstrap-4.0.0-dist/css/bootstrap.css" rel="stylesheet">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
       <a href="index.php" class="pull-left"><img src="logo\logo.png"></a> 

@@ -1,14 +1,21 @@
-<div class="col-md-8" style="background: wheat">
-  <div class="form-group">
-    <div class="videoUiWrapper thumbnail">
-      <video width="100%" id="vdHotPress" controls>
-        <!-- set width to 100% and add controls for play and volume buttons-->
-
-        <source src="video\eye-stalk.3gp" type="video/ogg" />
-        <source src="video\eye-stalk.3gp" type="video/mp4" />
-
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
-</div>
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+      
+    <!-- Link Bootstrap JS and JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head> 
+  
+<body> 
+    <div class="container"> 
+        <img src="rainboi.gif" 
+             class="img-responsive" alt="Responsive image" 
+             width="1000" height="200" /> 
+    </div> 
+</body> 
+  
+</html> 

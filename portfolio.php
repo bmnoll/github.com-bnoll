@@ -46,14 +46,14 @@
     ?>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script 
-      src="js/jquery-3.3.1.min.js">
+      src="bootstrap/bootstrap-4.0.0/bootstrap-4.0.0/js/tests/vendor/jquery-1.9.1.min.js">
     </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script 
-      src="js/popper.min.js">
+      src="bootstrap/bootstrap-4.0.0/bootstrap-4.0.0/assets/js/vendor/popper.min.js">
     </script>
     <script 
-      src="js/bootstrap-4.3.1.js">
+      src="bootstrap/bootstrap-4.0.0.js">
     </script>
   </body>
 </html>

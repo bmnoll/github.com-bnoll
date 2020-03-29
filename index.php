@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php 
-  require 'header.php';
-?>
+<?php require 'header.php'; ?>
   <body>
-
+  <?php require 'videoHeader.php'; ?>
   </br>
   </br>
-  <h2 class="text-center">
-    LoSuh Designs Products
-  </h2>
+  <h2 class="text-center"> LoSuh Designs Products </h2>
   </br>
   <hr>
-    <h3 class="text-center">
-      Dad Hats
-    </h3>
+    <h3 class="text-center"> Dad Hats </h3>
     </br>
     <?php
       $servername = "localhost";
@@ -36,11 +30,7 @@
         <div class="card">
           <img class="card-img-top" src="<?php echo $row['photo']; ?>" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">
-              <?php 
-                echo $row['name']; 
-              ?>
-            </h5>
+            <h5 class="card-title"> <?php echo $row['name']; ?> </h5>
             <p class="card-text"><?php echo $row['description']; ?></p>
             <h5 class="card-title"><?php echo $row['price']; ?></h5>
             <a href="#" class="btn btn-primary">View</a>
@@ -50,12 +40,8 @@
       <?php endwhile; ?>
       </div>
     </div>
-    <?php 
-      require 'carouselCode.php'
-    ?>
-     <h3 class="text-center">
-      Crews
-    </h3>
+    <?php require 'carouselCode.php' ?>
+     <h3 class="text-center"> Crews </h3>
      </br>
      <?php
       //$servername = "localhost";

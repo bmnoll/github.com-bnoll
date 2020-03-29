@@ -2,7 +2,6 @@
 <html lang="en">
 </br>
     <hr>
-    </br>
 <div class="container mt-3">
     <div class="row">
     <div class="col-3">
@@ -82,7 +81,5 @@
         </div>
       </div>
     </div>
-    </br>
     <hr>
-    </br>
     </html>
