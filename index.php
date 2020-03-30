@@ -6,7 +6,6 @@
   </br>
   </br>
   <h2 class="text-center"> LoSuh Designs Products </h2>
-  </br>
   <hr>
     <h3 class="text-center"> Dad Hats </h3>
     </br>
@@ -22,7 +21,6 @@
       }
     $result = $conn -> query("SELECT * FROM items") or die ($conn_error);
     ?>
-    
     <div class="container">
       <div class="row text-center">
           <?php while ($row = $result -> fetch_assoc()):?>
@@ -30,9 +28,15 @@
         <div class="card">
           <img class="card-img-top" src="<?php echo $row['photo']; ?>" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title"> <?php echo $row['name']; ?> </h5>
-            <p class="card-text"><?php echo $row['description']; ?></p>
-            <h5 class="card-title"><?php echo $row['price']; ?></h5>
+            <h5 class="card-title"> 
+              <?php echo $row['name']; ?>
+            </h5>
+            <p class="card-text">
+              <?php echo $row['description']; ?>
+            </p>
+            <h5 class="card-title">
+              <?php echo $row['price']; ?>
+            </h5>
             <a href="#" class="btn btn-primary">View</a>
           </div>
         </div>
@@ -97,15 +101,9 @@
       require 'footer.php';
     ?>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script 
-      src="js/jquery-3.3.1.min.js">
-    </script>
+    <script src="file:///C|/Users/brand/OneDrive/Desktop/js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script 
-      src="js/popper.min.js">
-    </script>
-    <script 
-      src="js/bootstrap-4.3.1.js">
-    </script>
+    <script src="file:///C|/Users/brand/OneDrive/Desktop/js/popper.min.js"></script>
+    <script src="file:///C|/Users/brand/OneDrive/Desktop/js/bootstrap-4.4.1.js"></script>
   </body>
 </html>

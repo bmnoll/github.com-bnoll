@@ -1,10 +1,10 @@
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
+<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap eCommerce Page Template</title>
     <!-- Bootstrap -->
-    <link href="bootstrap/bootstrap-4.0.0-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
       <a href="index.php" class="pull-left"><img src="logo\logo.png"></a> 

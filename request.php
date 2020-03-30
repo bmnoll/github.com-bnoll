@@ -1,6 +1,5 @@
 <html>
 <?php require 'header.php'; ?>
-<?php require 'styleSheet.php'; ?>
 <br/>
 <h2 class="text-center">
 Want to request a new hat, sweatshirt, etc. design?
