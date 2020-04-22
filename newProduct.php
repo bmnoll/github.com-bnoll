@@ -1,6 +1,6 @@
 <html>
 <?php require 'header.php'; ?>
-<?php require 'styleSheet.php'; ?>
+<?php require 'bootstrapStyleSheet.php'; ?>
 <br/>
 <br/>
 <div class="container">

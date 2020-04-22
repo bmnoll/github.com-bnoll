@@ -4,7 +4,7 @@
       <div class="row">
       <div class="mx-auto">
 <?php
-require 'styleSheet.php';
+require 'bootstrapStyleSheet.php';
 $servername = "localhost";
 $database = "csc206noll";
 $username = "root";

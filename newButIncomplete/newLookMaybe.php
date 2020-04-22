@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require 'styleSheet.php'; ?>
+<?php require 'bootstrapStyleSheet.php'; ?>
 <?php require 'header.php'; ?>
   <body>
   <?php require 'videoHeader.php'; ?>
