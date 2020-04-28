@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
-    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+    <link href="css\bootstrap-4.3.1.css" rel="stylesheet">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
       <a href="index.php" class="pull-left"><img src="logo\logo.png"></a> 
@@ -23,7 +23,7 @@
               <a class="nav-link" href="portfolio.php">Portfolio</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="newProduct.php">Admin</a>
+              <a class="nav-link" href="Admin.php">Admin</a>
             </li>
           </ul>
         </div>

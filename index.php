@@ -45,46 +45,7 @@
       </div>
     </div>
     <?php require 'carouselCode.php' ?>
-     <h3 class="text-center"> Crews </h3>
      </br>
-     <?php
-      //$servername = "localhost";
-      //$database = "csc206noll";
-      //$username = "root";
-      //$password = "password";
-    
-      //$conn = mysqli_connect($servername, $username, $password, $database);
-      //if($conn->connect_error){
-        //die("Connection failed: " . $conn->connect_error);
-      //}
-    $result = $conn -> query("SELECT * FROM items") or die ($conn_error);
-    ?>
-
-<div class="container">
-      <div class="row text-center">
-          <?php while ($row = $result -> fetch_assoc()):?>
-        <div class="col-md-4 pb-1 pb-md-0">
-        <div class="card">
-          <img class="card-img-top" src="<?php echo $row['photo']; ?>" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">
-              <?php 
-                echo $row['name']; 
-              ?>
-            </h5>
-            <p class="card-text"><?php echo $row['description']; ?></p>
-            <h5 class="card-title"><?php echo $row['price']; ?></h5>
-            <a href="#" class="btn btn-primary">View</a>
-            </div>
-        </div>
-      </div>
-      <?php endwhile; ?>
-      </div>
-    </div>
-    </br>
-    <?php 
-      mysqli_close($conn);
-    ?>
     <?php 
       require 'footer.php';
     ?>
