@@ -6,7 +6,7 @@
 	$price=$_POST['price'];
 	$photo=$_POST['photo'];
 		
-	$photo = $conn->real_escape_string($photo);
+	
 
 	if (isset($_POST['submit'])) {
 		$name = $_POST['name'];
@@ -20,7 +20,7 @@
 	
 	}
 	
-	$photo = $conn->real_escape_string($photo);
+	
 	
 	$sql = "INSERT INTO items (name, description, price, photo) VALUES ('$name', '$description','$price', '$photo')";
 	

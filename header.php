@@ -23,7 +23,7 @@
               <a class="nav-link" href="portfolio.php">Portfolio</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="Admin.php">Admin</a>
+              <a class="nav-link" href="adminIndex.php">Admin</a>
             </li>
           </ul>
         </div>
