@@ -62,7 +62,7 @@
 							</div>
 						</div>
 						<br/>
-						<label class="col-7 col-form-label" style="color:red"> *If you click the sumbit button: one forward ( \ ) slash in the photo's location will not be read, use two forward slashes ( \\ ) and the location will be read correctly </label>
+						<label class="col-7 col-form-label" style="color:red"> *If you click the sumbit button: one forward slash ( \ ) in the photo's location will not be read, use two forward slashes ( \\ ) and the location will be read correctly </label>
 						<br/>
 						<br/>
 					<input type="submit" class="btn btn-primary" name="submit">

@@ -95,7 +95,7 @@
 							</div>
 						</div>
 					</div>
-						<label class="col-7 col-form-label" style="color:red"> *When adding the photo's location: one forward ( \ ) slash in the photo's location will not be read, use two forward slashes ( \\ ) and the location will be read correctly </label>
+						<label class="col-7 col-form-label" style="color:red"> *When adding the photo's location: one forward slash ( \ ) in the photo's location will not be read, use two forward slashes ( \\ ) and the location will be read correctly </label>
 						<br/>
 						<br/>
 						<button name="submit" class="btn btn-primary" type="submit">All good?</button>
