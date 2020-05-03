@@ -2,13 +2,13 @@
 
 // Load basic configuration parameters
 
-require('./csc206/includes/application_includes.php');
+require 'application_includes.php';
 
 
 
 // Get authentication class
 
-require_once(FS_INCLUDES . 'Auth.php');
+require_once 'Auth.php';
 
 
 

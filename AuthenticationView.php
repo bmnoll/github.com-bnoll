@@ -23,7 +23,7 @@ class AuthenticationView
         echo <<<loginform
 
         
-
+        <br/>
         <form method="POST" action="login.php" >
 
           <div class="form-group row">
@@ -34,7 +34,7 @@ class AuthenticationView
 
           <div class="form-group row">
 
-            <label for="username" class="col-4 col-form-label text-right">Username</label>
+            <label for="username" class="col-4 col-form-label text-right">Username:</label>
 
             <div class="col-4">
 
@@ -50,7 +50,7 @@ class AuthenticationView
 
           <div class="form-group row">
 
-            <label for="password" class="col-4 col-form-label text-right">Password</label>
+            <label for="password" class="col-4 col-form-label text-right">Password:</label>
 
             <div class="col-4">
 
@@ -75,6 +75,8 @@ class AuthenticationView
           </div>
 
         </form>
+        
+        <br/>
 
 loginform;
 

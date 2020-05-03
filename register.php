@@ -2,25 +2,25 @@
 
 // Load basic configuration parameters
 
-require('./csc206/includes/application_includes.php');
+require 'application_includes.php';
 
 
 
 // Layout code for page
 
-require(FS_TEMPLATES . 'header.php');
 
-require(FS_TEMPLATES . 'footer.php');
 
-require(FS_TEMPLATES . 'RegisterView.php');
+
+
+require 'RegisterView.php';
 
 
 
 // Get authentication class
 
-require_once(FS_INCLUDES . 'RegisterClass.php');
+require_once 'RegisterClass.php';
 
-require_once(FS_INCLUDES . 'Auth.php');
+require_once 'Auth.php';
 
 
 
@@ -28,7 +28,7 @@ require_once(FS_INCLUDES . 'Auth.php');
 
 // Display top of page
 
-header::render();
+require 'header.php';
 
 
 
@@ -92,4 +92,4 @@ if ($requestType == 'GET') {
 
 // Display the footer
 
-footer::render();
+require 'footer.php';

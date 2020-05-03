@@ -152,6 +152,16 @@ class Database
 
 
 
+    public function real_escape_string($string)
+
+    {
+
+        return $this->db->real_escape_String($string);
+
+    }
+
+    
+
     /**
 
      * Returns an instance of MySQLResult to fetch rows with

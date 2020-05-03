@@ -4,19 +4,19 @@
 
 // Include the basic configuration elements
 
-require_once($_SERVER[ 'DOCUMENT_ROOT' ] . '/csc206/includes/config.php');
+require_once($_SERVER[ 'DOCUMENT_ROOT' ] . '\config.php');
 
 
 
 // Include the database connection and query class
 
-require_once(FS_INCLUDES . 'Database.php');
+require_once 'Database.php';
 
 
 
 // Include the HTML layout class
 
-require_once(FS_TEMPLATES . 'layout.php');
+require_once 'layout.php';
 
 
 

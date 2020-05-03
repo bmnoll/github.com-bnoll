@@ -2,9 +2,9 @@
 
 
 
-require_once($_SERVER[ 'DOCUMENT_ROOT' ] . '/csc206/includes/config.php');
+require_once($_SERVER[ 'DOCUMENT_ROOT' ] . '\config.php');
 
-require_once(FS_INCLUDES . 'Database.php');
+require_once 'Database.php';
 
 
 

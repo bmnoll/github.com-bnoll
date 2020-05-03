@@ -8,7 +8,7 @@ class RegisterView
 
     /**
 
-     * Render login form
+     * Render user registration form
 
      *
 
@@ -21,7 +21,7 @@ class RegisterView
     {
 
         echo <<<registration
-
+            <br/>
             <form method="POST" action="register.php" >
 
                   <div class="form-group row">
@@ -113,10 +113,117 @@ class RegisterView
                 </div>
 
             </form>
+            <br/>
 
 registration;
 
     }
+
+    
+
+    /**
+
+     * Render user registration form
+
+     *
+
+     * @param $data
+
+     */
+
+    public static function updateForm($user)
+
+    {
+
+        echo <<<update
+
+            <form method="POST" action="updateUser.php" >
+
+                  <div class="form-group row">
+
+                    <h4 class="offset-2 col-6">Update User | username is {$user['username']} </h4>
+
+                  </div>
+
+                  <input id="id" name="id" type="hidden" value="{$user['id']}">
+
+                <div class="form-group row">
+
+                    <label for="firstname" class="col-4 col-form-label text-right">First Name</label>
+
+                    <div class="col-4">
+
+                        <input id="firstname" name="firstname" type="text" class="form-control" required="required" value="{$user['firstname']}">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+
+                    <label for="lastname" class="col-4 col-form-label text-right">Last Name</label>
+
+                    <div class="col-4">
+
+                        <input id="lastname" name="lastname" type="text" class="form-control" required="required" value="{$user['lastname']}">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+
+                    <label for="email" class="col-4 col-form-label text-right">Email Address</label>
+
+                    <div class="col-4">
+
+                        <input id="email" name="email" type="text" class="form-control" required="required"  value="{$user['email']}">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+
+                    <label for="password" class="col-4 col-form-label text-right">Password</label>
+
+                    <div class="col-4">
+
+                        <input id="password" name="password" type="password" class="form-control">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+
+                    <label for="confirm_password" class="col-4 col-form-label text-right">Confirm Password</label>
+
+                    <div class="col-4">
+
+                        <input id="confirm_password" name="confirm_password" type="password" class="form-control">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+
+                    <div class="offset-4 col-4">
+
+                        <button name="submit" type="submit" class="btn btn-primary">Update User</button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+update;
+
+    }
+
+    
 
     
 
@@ -172,6 +279,8 @@ registration;
 
                 $showUrl = "/showUser.php?id=" . $id;
 
+                $updateUrl = "/updateUser.php?id=" . $id;
+
                 
 
                 // Build the content block.
@@ -191,6 +300,8 @@ registration;
             <td>
 
                 <a href="$showUrl" class="btn btn-sm btn-success d-inline">Show</a>
+
+                <a href="$updateUrl" class="btn btn-sm btn-warning d-inline">Update</a>
 
                 <form method="POST" action="deleteUser.php" class="d-inline">
 
@@ -260,7 +371,7 @@ Layout;
 
         }
 
-        
+        echo '</table>';
 
     }
 
