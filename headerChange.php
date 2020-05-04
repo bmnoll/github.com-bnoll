@@ -1,5 +1,5 @@
 <?php
-    if (empty ($_SESSION))
+    if (empty($_SESSION['user']))
     {
 ?>
 		<style type="text/css">#login
@@ -9,7 +9,7 @@
 		</style>
 <?php
     }
-    if(isset($_SESSION))
+    if (isset($_SESSION['user']))
     {
 ?>
         <style type="text/css">#login

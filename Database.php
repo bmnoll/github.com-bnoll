@@ -1,3 +1,4 @@
+
 <?php
 
 
@@ -22,7 +23,7 @@ class Database
 
      */
 
-    private $host;
+    private $host = 'localhost';
 
     /**
 
@@ -30,7 +31,7 @@ class Database
 
      */
 
-    private $dbUser;
+    private $dbUser = 'root';
 
     /**
 
@@ -38,7 +39,7 @@ class Database
 
      */
 
-    private $dbPass;
+    private $dbPass = 'password';
 
     /**
 
@@ -46,7 +47,7 @@ class Database
 
      */
 
-    private $dbName;
+    private $dbName = 'csc206noll';
 
     /**
 

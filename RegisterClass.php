@@ -2,7 +2,7 @@
 
 
 
-require_once($_SERVER[ 'DOCUMENT_ROOT' ] . '/config.php');
+require_once 'config.php';
 
 require_once 'Database.php';
 
@@ -98,7 +98,7 @@ class RegisterClass
 
         // Build the SQL
 
-        $sql = "insert into users (firstname, lastname, email, username, password, date_created) values (";
+        $sql = "INSERT into users (firstname, lastname, email, username, password, date_created) values (";
 
         $sql .= " '$fn', ";
 

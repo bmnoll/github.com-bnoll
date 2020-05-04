@@ -2,7 +2,7 @@
 
 
 
-require_once($_SERVER[ 'DOCUMENT_ROOT' ] . '\config.php');
+require_once 'config.php';
 
 require_once 'Database.php';
 
@@ -63,10 +63,11 @@ class Auth
 
 
 //        echo 'Good password<br><pre>';
-
+//
 //        echo print_r($user);
 
-//        echo '</pre>';
+//       echo '</pre>';
+//        die();
 
     }
 
@@ -186,7 +187,7 @@ class Auth
 
     {
 
-        $sql = "select * from users where username = '$username';";
+        $sql = "SELECT * from users where username = '$username';";
 
         $results = self::executeQuery($sql);
 
