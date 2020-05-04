@@ -112,7 +112,7 @@ class RegisterClass
 
         $sql .= " '$date_created' )";
 
-        echo $sql; die();
+        
 
         $results = self::executeQueryNoData($sql);
 

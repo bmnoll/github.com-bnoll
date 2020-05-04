@@ -10,11 +10,11 @@ session_start();
 
 // Store a variable in the session
 
-$_SESSION['name'] = 'Geneva College';
+$_SESSION['name'] = '';
 
-$_SESSION['person'] = 'Scott Madeira';
+$_SESSION['person'] = '';
 
-$_SESSION['zip'] = '16066';
+$_SESSION['zip'] = '';
 
 
 

@@ -29,16 +29,18 @@
             <li class="nav-item active">
               <a class="nav-link" href="adminIndex.php">Admin</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="register.php">Register</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="login.php">Login</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="logout.php">Logout</a>
-            </li>
+              
+              <div id = "login">
+              <li class="nav-item active">
+                <a class="nav-link" href="register.php">Register</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="login.php">Login</a>
+              </li>
+              </div>
+              <?php require "headerChange.php" ?>
           </ul>
         </div>
     </div>
   </nav>
+</html>
