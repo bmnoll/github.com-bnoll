@@ -29,7 +29,6 @@
             <li class="nav-item active">
               <a class="nav-link" href="adminIndex.php">Admin</a>
             </li>
-              
               <div id = "login">
               <li class="nav-item active">
                 <a class="nav-link" href="register.php">Register</a>
